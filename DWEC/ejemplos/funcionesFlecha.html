@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- CABECERA -->
+<head>
+<title>Ejercicio JS fase 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", user-scalable="no">
+	<meta name='autor' content='Alvaro Barba Fernández'>
+	<meta name="description" content="HTLM, JS" user-scalable="no">
+</head>
+<body>
+	<script>
+	    let age = prompt("What is your age?", 18);
+
+        let welcome = (age < 18) ?
+        () => alert('Hello') :
+        () => alert("Greetings!");
+        welcome();
+	</script>
+</body>
+</html>
